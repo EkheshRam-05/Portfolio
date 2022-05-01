@@ -324,7 +324,12 @@ body{
 		font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 	}
 
-
+	
+	.prog-logo{
+		height: 2em;
+		width: 2em;
+	}
+	
 	.footer-contacts{
 		justify-content: center;
 		align-items: center;
