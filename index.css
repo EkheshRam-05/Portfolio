@@ -121,7 +121,7 @@ body{
 	color: antiquewhite;
 	margin-top: 2em;
 	width: 18rem;
-	box-shadow: -1px -1px 50px -5px rgb(128, 119, 119);
+	box-shadow: 10px 10px 15px -5px rgb(252, 251, 251, 0.3);
 	text-align: left;
 }
 
