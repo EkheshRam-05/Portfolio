@@ -202,7 +202,7 @@ body{
 	height: 20em;
 	background-repeat: no-repeat;
 	background-size: cover;
-	box-shadow: 0px -30px 30px rgba(117, 114, 114, 0.3);
+	box-shadow: 0px -20px 10px -5px rgba(117, 114, 114, 0.3);
 }
 
 
