@@ -374,6 +374,8 @@ body{
 	.for-mobile{
 		color:antiquewhite;
 		padding-bottom:2em;
+		justify-content: center;
+		align-content: center;
 	}
 	
 	.footer-right{
