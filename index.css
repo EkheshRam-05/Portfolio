@@ -315,6 +315,8 @@ body{
 
 	.project-flow{
 		flex-flow: column;
+		justify-content: center;
+		align-items: center;
 	}
 
 	#Skills{
