@@ -370,7 +370,12 @@ body{
 	.footer-slant{
 		display: none;
 	}
-
+	
+	.for-mobile{
+		color:antiquewhite;
+		padding-bottom:2em;
+	}
+	
 	.footer-right{
 		width: 100%;
 		justify-content: center;
