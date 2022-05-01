@@ -16,6 +16,14 @@
 	color: antiquewhite;
 }
 
+.name{
+	font-size: 50px;
+}
+
+
+.header-contant{
+	font-size: 20px;
+}
 
 .body{
 	background-image: linear-gradient(180deg, rgb(0, 27, 20), black);
@@ -298,6 +306,8 @@ body{
 		height: 40px;
 		width: 40px;
 	}
+	
+	
 
 	.project-flow{
 		flex-flow: column;
@@ -340,9 +350,13 @@ body{
 		transform: scaleX(-1);
 		/* box-shadow: 1px 1px 15px 5px rgb(241, 182, 196); */
 	}
-
-
-
+	
+	.name{
+		font-size: 30px;
+	}
+	.header-contant{
+		font-size: 10px;
+	}
 
 
 
