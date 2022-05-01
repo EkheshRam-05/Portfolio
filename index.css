@@ -16,6 +16,10 @@
 	color: antiquewhite;
 }
 
+.for-mobile{
+	display:none;
+}
+
 .name{
 	font-size: 50px;
 }
