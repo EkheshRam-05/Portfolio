@@ -358,7 +358,9 @@ body{
 		font-size: 10px;
 	}
 
-
+	#About{
+		padding: 0%;
+	}
 
 	.footer-slant{
 		display: none;
