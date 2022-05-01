@@ -16,9 +16,6 @@
 	color: antiquewhite;
 }
 
-.for-mobile{
-	display:none;
-}
 
 .name{
 	font-size: 50px;
@@ -28,6 +25,7 @@
 .header-contant{
 	font-size: 20px;
 }
+
 
 .body{
 	background-image: linear-gradient(180deg, rgb(0, 27, 20), black);
@@ -96,8 +94,9 @@
 	aspect-ratio: 16/9;
 	/* height: 30em; */
 	width: 100%;
+	/* padding: 0%; */
 	transform: scaleX(-1);
-	margin-top: 2em;
+	/* margin-top: 10%; */
 }
 
 body{
@@ -105,6 +104,7 @@ body{
 }
 
 .about-me{
+	/* margin-top: 50%; */
 	font-style:normal;
 	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 	font-weight: bold;
@@ -304,20 +304,34 @@ body{
 		align-content:flex-end;
 		background: linear-gradient(rgb(0, 27, 20), rgb(0, 0, 0));
 	}
+	
+	.name{
+		font-size: 30px;
+	}
+	.header-contant{
+		font-size: 10px;
+	}
+	
 
-	.Menu{		
+	.Menu{
+		margin-top: 2em;
 		display: block;
 		height: 40px;
 		width: 40px;
 	}
-	
-	
 
 	.project-flow{
 		flex-flow: column;
 		justify-content: center;
 		align-items: center;
 	}
+
+	#About{
+		padding: 3%;
+		transform: none;
+		font-size: large;
+	}
+
 
 	#Skills{
 		
@@ -330,12 +344,7 @@ body{
 		font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 	}
 
-	
-	.prog-logo{
-		height: 3em;
-		width: 3em;
-	}
-	
+
 	.footer-contacts{
 		justify-content: center;
 		align-items: center;
@@ -343,10 +352,13 @@ body{
 	}
 
 	.about-me-2{
+		/* padding-left: 2em; */
 		font-size: smaller;
 		float: left;
 		width: 100%;
-		margin-top: 0%;
+		text-align: center;
+		transform:scaleX(-1);;
+		margin-top: 60%;
 	}
 
 
@@ -361,30 +373,21 @@ body{
 		transform: scaleX(-1);
 		/* box-shadow: 1px 1px 15px 5px rgb(241, 182, 196); */
 	}
-	
-	.name{
-		font-size: 30px;
-	}
-	.header-contant{
-		font-size: 10px;
+
+	.prog-logo{
+		height: 2em;
+		width: 2em;
 	}
 
-	#About{
-		padding: 0%;
+	.for-mobile{
+		color:antiquewhite;
+		padding-bottom:2em;
 	}
 
 	.footer-slant{
 		display: none;
 	}
-	
-	.for-mobile{
-		color:antiquewhite;
-		padding-bottom:2em;
-		justify-content: center;
-		align-content: center;
-		display:block;
-	}
-	
+
 	.footer-right{
 		width: 100%;
 		justify-content: center;
