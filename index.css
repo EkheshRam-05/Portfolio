@@ -382,6 +382,7 @@ body{
 		padding-bottom:2em;
 		justify-content: center;
 		align-content: center;
+		display:block;
 	}
 	
 	.footer-right{
