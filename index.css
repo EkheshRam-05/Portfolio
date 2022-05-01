@@ -107,7 +107,7 @@ body{
 	/* margin-top: 50%; */
 	font-style:normal;
 	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-	font-weight: bold;
+	/* font-weight: bold; */
 	/* background-color: bisque; */
 	font-size: large;  
 	color: antiquewhite;
@@ -252,7 +252,6 @@ body{
 	.about-me{
 		font-style:normal;
 		font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-		font-weight: bold;
 		/* background-color: bisque; */
 		font-size:small;  
 		color: antiquewhite;
@@ -329,8 +328,7 @@ body{
 	#About{
 		padding: 3%;
 		transform: none;
-		font-size: 2em;
-
+		font-style:normal;
 	}
 
 
@@ -354,7 +352,7 @@ body{
 
 	.about-me-2{
 		/* padding-left: 2em; */
-		font-size: smaller;
+		font-size: small;
 		float: left;
 		width: 100%;
 		text-align: center;
@@ -367,8 +365,6 @@ body{
 	.about-me{
 		font-style:normal;
 		font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-		font-weight: bold;
-		/* background-color: bisque; */
 		font-size:smaller;  
 		color: antiquewhite;
 		transform: scaleX(-1);
