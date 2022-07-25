@@ -36,7 +36,7 @@
 	font-size: larger;
 	float: right;
 	width: 50%;
-	margin-top: 15%;
+	margin-top: 10%;
 }
 
 
@@ -100,7 +100,7 @@
 }
 
 body{
-	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .about-me{
@@ -223,6 +223,7 @@ body{
 	
 	.nav-media{
 		display: flex;
+		/* margin-top: 50px; */
 		flex-direction: column;
 		border: 2px;
 		align-content:flex-end;
@@ -253,7 +254,7 @@ body{
 		font-style:normal;
 		font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 		/* background-color: bisque; */
-		font-size:medium;  
+		font-size:small;  
 		color: antiquewhite;
 		transform: scaleX(-1);
 		/* box-shadow: 1px 1px 15px 5px rgb(241, 182, 196); */
@@ -357,7 +358,7 @@ body{
 		width: 100%;
 		text-align: center;
 		transform:scaleX(-1);;
-		margin-top: 60%;
+		margin-top: 100%;
 	}
 
 
